@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style type="text/css">
+      body {
+        font-family: sans-serif;
+      }
+
+      .lingkaran {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden; /* Menghindari gambar keluar dari lingkaran */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto; /* Membuat div tetap berada di tengah */
+      }
+
+      .lingkaran img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        margin: auto;
+      }
+
+      .judul {
+        text-align: center;
+        color: black;
+        font-size: 20px;
+      }
+      .subjudul {
+        text-align: center;
+        color: black;
+        font-size: 15px;
+      }
+
+      .no1 {
+        text-align: left;
+        color: rgb(255, 0, 0);
+        font-size: 15px;
+      }
+
+      .no1 {
+        text-align: left;
+        color: rgb(67, 67, 67);
+        font-size: 15px;
+      }
+
+      .table1 {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 150%;
+      }
+
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th {
+        border: 1px solid #ffffff;
+        text-align: left;
+        padding: 8px;
+        background-color: rgb(255, 127, 193);
+        color: #ffffff;
+      }
+
+      td {
+        border: 1px solid #ffffff;
+        text-align: left;
+        padding: 8px;
+        background-color: rgb(143, 241, 5);
+      }
+    </style>
+
+    <div class="lingkaran">
+      <img src="fotokrsamikom.jpg" alt="Profile" />
+    </div>
+
+    <div class="judul">
+      <b>Muh Hafis Rizik Habibulah</b>
+    </div>
+
+    <br />
+
+    <div class="subjudul">Web Developer</div>
+
+    <div class="no1">
+      <b> Contact Information</b>
+    </div>
+
+    <table class="table1">
+      <tr>
+        <th>Email</th>
+        <td>Hafis@students.amikom.ac.id</td>
+      </tr>
+      <tr>
+        <th>Phone</th>
+        <td>0857676767767</td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td>Klaten, Jawa Tengah</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <div class="no1">
+      <b> Education </b>
+    </div>
+    <ul>
+      <li><b>SMK NEGERI 1 ROTA BAYAT</b> 2020-2023</li>
+      <li><b>UNIVERSITAS AMIKOM YOGYAKARTA</b> 2023-SEKARANG</li>
+    </ul>
+
+    <br />
+
+    <div class="no1">
+      <b> Experience </b>
+    </div>
+    <table>
+      <tr>
+        <th>Job Title</th>
+        <th>Company</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>Web Developer</td>
+        <td>ABC Company</td>
+        <td>2020-2022</td>
+      </tr>
+      <tr>
+        <td>Frontend Developer</td>
+        <td>XYZ Coorporation</td>
+        <td>2018-2020</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <div class="no1">
+      <b> Skills </b>
+    </div>
+    <ol>
+      <li>Graphic Design</li>
+      <li>HTML5</li>
+      <li>CSS</li>
+      <li>Phyton</li>
+      <li>Php</li>
+    </ol>
+  </body>
+</html>
