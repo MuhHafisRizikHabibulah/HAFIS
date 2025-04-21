@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>1.4</title>
+  </head>
+  <body>
+    <h2>Output Array:</h2>
+    <pre id="output"></pre>
+
+    <script>
+      let array = [1, 2, 3, "halo", false, true];
+      array.shift();
+      document.getElementById("output").textContent = JSON.stringify(array);
+      console.log(array);
+    </script>
+  </body>
+</html>
